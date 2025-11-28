@@ -1,5 +1,3 @@
-package com.mycompany.controldeasistenciaescolar;
-
 // Usuarios: admin Ian Fabian Carlos Raul
 //Contrasena: 123
 import javax.swing.JOptionPane;
