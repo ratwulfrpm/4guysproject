@@ -1,11 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package proyecto_local;
+
 // Usuarios: admin Ian Fabian Carlos Raul
 //Contrasena: 123
 import javax.swing.JOptionPane;
 
+/**
+ *
+ * @author Raul
+ */
 public class ControlDeAsistenciaEscolar {
 
     static RegistroDeEstudiantes estudiantes[] = new RegistroDeEstudiantes[40];
     static int contadorEstudiantes = 0;
+
+    static int[] totalClasesPorEstudiante = new int[40];
+    static int[] asistenciasPorEstudiante = new int[40];
 
     public static void main(String[] args) {
 
